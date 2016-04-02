@@ -18,4 +18,10 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select 'title', 'Railslide :: About'
   end
+
+  test 'should get contact' do
+    get :contact
+    assert_response :success
+    assert_select 'title', 'Railslide :: Contact'
+  end
 end
