@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '4.2.4'
-gem 'mysql2',       '~> 0.3.20'
+# gem 'mysql2',       '~> 0.3.20'
 gem 'bootstrap-sass', '3.2.0.0'
 gem 'sass-rails',   '~> 5.0'
 gem 'uglifier',     '2.5.3'
@@ -16,6 +16,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 group :development do
   gem 'web-console',  '~> 2.0'
+  gem 'mysql2',       '~> 0.3.20'
 end
 
 group :development, :test do
